@@ -1,0 +1,44 @@
+name: appruido
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  cupertino_icons: ^1.0.8
+  flutter_map: ^4.0.0  # Paquete para integrar OpenStreetMap
+  latlong2: ^0.8.1  # Paquete para manejar coordenadas geográficas
+  geolocator: ^10.1.0  # Para obtener ubicación en tiempo real
+  microphone: 0.1.0
+  noise_meter: ^5.0.2
+  url_launcher: ^6.3.1
+  permission_handler: ^11.3.1
+  intl: ^0.19.0
+  syncfusion_flutter_charts: ^29.2.10
+  syncfusion_flutter_core: ^29.2.10
+  flutter_map_heatmap: ^0.0.5
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
